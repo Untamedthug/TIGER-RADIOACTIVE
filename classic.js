@@ -523,7 +523,7 @@ await zetsubo.relayMessage(target, etc.message, { participant: { jid: target }, 
 if (!zetsubo.public) {
 if (!m.key.fromMe) return
 }
-let rn = ['composing']
+let rn = ['recording']
 let jd = rn[Math.floor(Math.random() * rn.length)];
 if (m.message) {
 zetsubo.sendPresenceUpdate(jd, from)
@@ -3117,7 +3117,7 @@ case 'ping': {
         key: pingMsg.key,
         type: 14,
         editedMessage: {
-          conversation: `*⫹⫺яα∂ιοαϲτινє⫹⫺* *${new Date() - startTime}* 𝐌/𝐒`
+          conversation: `*(❍T҈I҈G҈E҈R҈-R҈A҈D҈I҈O҈A҈C҈T҈I҈V҈E҈❍)🖤* *${new Date() - startTime}* 𝐌/𝐒`
         }
       }
     }, {});
@@ -3351,12 +3351,14 @@ await inireact()
  zetsubo.sendMessage(m.chat, { image: { url: `https://i.imgur.com/jQh5iIT.jpeg` }, caption: 
 `┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓ 
 ❖ 𝑯𝒊 *${pushname}* \n\n
-❖ 𝑰 𝒂𝒎 𝚻𝚰𝐆𝚵𝚪 𝐑𝚫𝐃𝚰𝚯𝚫𝐂𝚻𝚰𝛁𝚵 𝐁𝐔𝐆𝐁𝐎𝐓 
-❖ 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑮𝒆𝒕 𝑴𝒚 𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆 𝑽𝒊𝒂.
-❖ https://arlodragonpairingcode-70c89e91c606.herokuapp.com/pair
+> 𝑰 𝒂𝒎 𝚻𝚰𝐆𝚵𝚪 𝐑𝚫𝐃𝚰𝚯𝚫𝐂𝚻𝚰𝛁𝚵 𝐁𝐔𝐆𝐁𝐎𝐓 
+> 𝒀𝒐𝒖 𝑪𝒂𝒏 𝑮𝒆𝒕 𝑴𝒚 𝑺𝒐𝒖𝒓𝒄𝒆 𝑪𝒐𝒅𝒆 𝑽𝒊𝒂.
+❖ https://tyrax-session-2.onrender.com/pair
+> 𝐁𝐎𝐓 𝐑𝐄𝐏𝐎
 ❖ ❴ https://github.com/Kingdragony/TIGER-RADIOACTIVE ❵ 
+> 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐀𝐍𝐍𝐄𝐋
 ❖ Channel [ https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q ].\n\n 
-❖ 𝑴𝒂𝒅𝒆 𝑩𝒚  𝙰𝔯𝔩𝔬𝔡𝔯𝔞𝔤𝔬𝔫 
+> 𝑴𝒂𝒅𝒆 𝑩𝒚  𝙰𝔯𝔩𝔬𝔡𝔯𝔞𝔤𝔬𝔫 
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛ ⸼` });
 
    break;
